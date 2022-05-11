@@ -63,7 +63,7 @@ const personalFimsDB = {
             //     personalFimsDB.genres[i - 1] = ganre;
             // }
 
-            let genres = prompt(`Введите ваши любимые фильмы через запятую`);
+            let genres = prompt(`Введите ваши любимые фильмы через запятую`).toLowerCase();
             if (genres === '' || genres == null){
                 console.log('Вы ввели некорректные данные или не ввели их вовсе ');
                 i--;
